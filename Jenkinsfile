@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     environment {
-        GITHUB_URL = 'https://github.com/miamioh-cit/dayam7-lb-deploy.git'  // <---- Change this to match your cloned repository
+        GITHUB_URL = 'https://github.com/miamioh-dayam7/dayam7-lb-deploy.git'  // <---- Change this to match your cloned repository
         KUBECONFIG = credentials('dayam7-225')   // <---- Change this to match your kubernetes cluster credentials
     }
 
